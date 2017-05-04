@@ -1,8 +1,8 @@
 def user = "iflowfor8hours"
-def cfUser = "${cf_username}"
-def cfPassword = "${cf_password}"
-def cfOrg = "${cf_org}"
-def sonarUrl = "${sonar_url}"
+def cfUser = "gopinath.kathir@gmail.com"
+def cfPassword = "Pepsi@123"
+def cfOrg = "happoc"
+def sonarUrl = "http://172.16.204.230:5000"
 def flow
 
 stage 'compile'
